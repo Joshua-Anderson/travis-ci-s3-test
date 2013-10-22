@@ -5,5 +5,6 @@ deploy:
   edge: true
   provider: s3
   access_key_id: AKIAIDHXKG6VV7DB45DA
-  secret_access_key: kQhXwKgV3gCy34H/6GP7z7PQbf8GZPm0dCOdqFVsLM7fIxZK4bhsABJ57CtMtRTxtCs1hTkHzRTWO0/u+mfuRDhiWKWZjnc7CrerCgoQdf7mBejdb+rdEZtfYL2R1El+lA7eqOf+GE/axmLgfTXxNbmT6y7BSn+x1cGpC4Aj29c=
+  secret_access_key: 
+    - secure: "kQhXwKgV3gCy34H/6GP7z7PQbf8GZPm0dCOdqFVsLM7fIxZK4bhsABJ57CtMtRTxtCs1hTkHzRTWO0/u+mfuRDhiWKWZjnc7CrerCgoQdf7mBejdb+rdEZtfYL2R1El+lA7eqOf+GE/axmLgfTXxNbmT6y7BSn+x1cGpC4Aj29c="
   bucket: travis-ci-s3
