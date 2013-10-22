@@ -6,5 +6,5 @@ deploy:
   provider: s3
   access_key_id: AKIAIDHXKG6VV7DB45DA
   secret_access_key: 
-    - secure: "kQhXwKgV3gCy34H/6GP7z7PQbf8GZPm0dCOdqFVsLM7fIxZK4bhsABJ57CtMtRTxtCs1hTkHzRTWO0/u+mfuRDhiWKWZjnc7CrerCgoQdf7mBejdb+rdEZtfYL2R1El+lA7eqOf+GE/axmLgfTXxNbmT6y7BSn+x1cGpC4Aj29c="
+    - secure: "ZDSkqWbKC0kc3oVvyknb35847nqbYRTCaQCHF8/RTMq7+aRjzL364HcLUxUleQ6RHrakNS9R+WYW/1cWeQXIPaEP6UOjuZ27SmXa9Op+17zGtR06Y70t1zT48JnIveU3tF8uF5SdXp+ycAVTUoYIJysaeVhzpEoNvQUYqIWdSWw="
   bucket: travis-ci-s3
