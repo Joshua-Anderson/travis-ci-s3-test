@@ -2,21 +2,13 @@ language: ruby
 script: true
 
 deploy:
-  - provider: s3
-    access_key_id: AKIAIDHXKG6VV7DB45DA
-    secret_access_key: 
-      - secure: "ZDSkqWbKC0kc3oVvyknb35847nqbYRTCaQCHF8/RTMq7+aRjzL364HcLUxUleQ6RHrakNS9R+WYW/1cWeQXIPaEP6UOjuZ27SmXa9Op+17zGtR06Y70t1zT48JnIveU3tF8uF5SdXp+ycAVTUoYIJysaeVhzpEoNvQUYqIWdSWw="
-    bucket: travis-ci-s3
-    skip_cleanup: true
-    edge: true
-    on:
-      branch: master
-  - provider: s3
-    access_key_id: AKIAIDHXKG6VV7DB45DA
-    secret_access_key: 
-      - secure: "ZDSkqWbKC0kc3oVvyknb35847nqbYRTCaQCHF8/RTMq7+aRjzL364HcLUxUleQ6RHrakNS9R+WYW/1cWeQXIPaEP6UOjuZ27SmXa9Op+17zGtR06Y70t1zT48JnIveU3tF8uF5SdXp+ycAVTUoYIJysaeVhzpEoNvQUYqIWdSWw="
-    bucket: travis-ci-s3
-    skip_cleanup: true
-    edge: true
-    on:
-      branch: release
+  provider: s3
+  access_key_id: AKIAIDHXKG6VV7DB45DA
+  secret_access_key: 
+    - secure: "ZDSkqWbKC0kc3oVvyknb35847nqbYRTCaQCHF8/RTMq7+aRjzL364HcLUxUleQ6RHrakNS9R+WYW/1cWeQXIPaEP6UOjuZ27SmXa9Op+17zGtR06Y70t1zT48JnIveU3tF8uF5SdXp+ycAVTUoYIJysaeVhzpEoNvQUYqIWdSWw="
+  bucket: travis-ci-s3
+  skip_cleanup: true
+  edge: true
+  on:
+    branch: release
+
