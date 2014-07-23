@@ -1,1 +1,1 @@
-This is a test of travis ci s3 deploy.
+This is a test of travis ci s3 deployment.
